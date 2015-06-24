@@ -1,0 +1,8 @@
+# Build files
+/security/.gradle
+/security/build
+/bookstore/.gradle
+/bookstore/build
+
+# Extraneous OS files
+.DS_Store

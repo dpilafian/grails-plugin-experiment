@@ -1,16 +1,16 @@
 # Grails Plugin Experiment
 Defining a Grails 3.0 plugin domain class to be extendable
 
-##### Question:
+##### Details on SO:
 http://stackoverflow.com/q/30798748
 
-This project contains a plugin called **security** and application called **bookstore** to test the plugin.
+This project contains a plugin called **security** and an application called **bookstore** to test the plugin.
 
-Plugin user:
+##### Plugin user:
 
     org.centerkey.grails.User
 
-Application user (extends plugin user):
+##### Application user (extends plugin user):
 
     com.example.BookstoreUser
 

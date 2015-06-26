@@ -1,4 +1,4 @@
-package org.centerkey.security
+package org.centerkey.grails
 
 import grails.plugins.*
 
@@ -12,16 +12,11 @@ class SecurityGrailsPlugin extends Plugin {
     ]
 
     // TODO Fill in these fields
-    def title = "Security" // Headline display name of the plugin
-    def author = "Your name"
-    def authorEmail = ""
-    def description = '''\
-Brief summary/description of the plugin.
-'''
+    def title =       "Grails Security Plugin"
+    def author =      "Center Key"
+    def description = "Straightforward security you can understand"
     def profiles = ['web']
-
-    // URL to the plugin's documentation
-    def documentation = "http://grails.org/plugin/security"
+    def documentation =  "http://centerkey.org/"
 
     // Extra (optional) plugin metadata
 
@@ -42,7 +37,7 @@ Brief summary/description of the plugin.
 
     Closure doWithSpring() { {->
             // TODO Implement runtime spring config (optional)
-        } 
+        }
     }
 
     void doWithDynamicMethods() {

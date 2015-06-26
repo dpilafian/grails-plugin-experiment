@@ -2,7 +2,7 @@
 grails:
     profile: web-plugin
     codegen:
-        defaultPackage: org.centerkey.security
+        defaultPackage: org.centerkey.grails
 info:
     app:
         name: '@info.app.name@'

@@ -16,8 +16,8 @@ plugins {
     id "com.jfrog.bintray" version "1.1"
 }
 
-version "0.0.1"
-group   "org.centerkey.security"
+version "0.0.3"
+group   "org.centerkey.grails"
 
 apply plugin: 'maven-publish'
 apply plugin: 'eclipse'
@@ -60,6 +60,8 @@ dependencies {
     provided "org.grails:grails-web-boot"
     provided "org.grails:grails-dependencies"
     provided 'javax.servlet:javax.servlet-api:3.1.0'
+
+    provided "org.springframework.security:spring-security-crypto"
 
     testCompile "org.grails:grails-plugin-testing"
 

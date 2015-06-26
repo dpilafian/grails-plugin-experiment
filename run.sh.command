@@ -20,7 +20,7 @@ cd security
 echo "\nBuilding plugin..."
 grails install
 echo
-pluginDefinition=~/.m2/repository/org/centerkey/security/security/maven-metadata-local.xml
+pluginDefinition=~/.m2/repository/org/centerkey/grails/security/maven-metadata-local.xml
 ls $pluginDefinition
 cat $pluginDefinition
 

@@ -1,4 +1,7 @@
 ---
+myapp:
+    securityDomainClass: 'com.example.BookstoreUser'
+---
 grails:
     profile: web
     codegen:

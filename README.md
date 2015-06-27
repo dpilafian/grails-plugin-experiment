@@ -16,7 +16,7 @@ This project contains a plugin called **security** and an application called **b
 
 ### Try it out
 
-1. Build the plugin and run the test app:  `$ ./run.sh.command`
+1. Build the plugin and run the test app:  `$ ./gradlew bookstore:run`
 1. Open: [http://localhost:8080/](http://localhost:8080/)
 1. Click link to create a user
 
